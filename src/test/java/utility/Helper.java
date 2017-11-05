@@ -16,7 +16,7 @@ public class Helper {
 		File src=((TakesScreenshot)ldriver).getScreenshotAs(OutputType.FILE);           
 		
 			
-		String destination = "C:\\Users\\sandeep\\Desktop\\Sample_project\\com.learn.framewrokcreation.etlhive\\Screenshots\\"+screenshotname+System.currentTimeMillis()+".jpeg";
+		String destination = "C:\\Users\\lenovo\\git\\DemoFramework_5Nov\\Screenshots\\"+screenshotname+System.currentTimeMillis()+".jpeg";
 		
 		// now copy the  screenshot to desired location using copyFile method
 	
